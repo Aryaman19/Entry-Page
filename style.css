@@ -1,12 +1,12 @@
 @font-face {
 	font-family: "Century-Gothic";
-	src: url("/assets/fonts/gothicb.ttf");
+	src: url("./assets/fonts/gothicb.ttf");
 	font-weight: bold;
 }
 
 @font-face {
 	font-family: "Futura-Maxi";
-	src: url("/assets/fonts/Futura\ Maxi\ CG\ Bold\ Regular.otf");
+	src: url("./assets/fonts/Futura\ Maxi\ CG\ Bold\ Regular.otf");
 	font-weight: bold;
 }
 
