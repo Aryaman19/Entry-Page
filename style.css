@@ -46,13 +46,13 @@ body {
 		width: 100%;
 	}
 	.yellow-section h1 {
-		margin-left: 14vw;
+		margin-left: 15vmax;
 	}
 }
 
 /********************        Mobile View    ***************************************************/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 	.yellow-section {
 		width: 100%;
 	}
@@ -122,16 +122,16 @@ body {
 
 /********************        Mobile View    ***************************************************/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 }
 
 /********************************                      Main Title                        ***************************************/
 .main-heading {
 	position: fixed;
-	top: 38%;
+	top: 35%;
 	left: 20.5%;
 	font-family: "Century-Gothic";
-	font-size: 11vmax;
+	font-size: 12vmax;
 }
 
 .main-heading span {
@@ -139,7 +139,20 @@ body {
 }
 
 @media only screen and (max-width: 950px) {
+	.main-heading {
+		top: 40%;
+		/* left: 25%; */
+	}
+
 	.main-heading span {
 		color: white;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.main-heading {
+		font-size: 15vmin;
+		top: 45%;
+		left: 7%;
 	}
 }
