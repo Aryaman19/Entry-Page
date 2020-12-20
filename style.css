@@ -156,6 +156,7 @@ body {
 		position: relative;
 		width: 52vw;
 		top: 14%;
+		pointer-events: none;
 	}
 
 	.yellow-section .blog-tab h2 {
