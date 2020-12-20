@@ -135,6 +135,10 @@ body {
 		-webkit-text-stroke: 1.5px black;
 	}
 
+	.yellow-section .tab-text:hover {
+		-webkit-text-stroke: 2.5px black;
+	}
+
 	.yellow-section .blog-tab {
 		position: static;
 		width: 100%;
@@ -199,7 +203,7 @@ body {
 		font-size: 13vw;
 		height: 10%;
 		margin: 0;
-		top: 70%;
+		top: 71%;
 		left: 5%;
 	}
 }
