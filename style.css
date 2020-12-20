@@ -132,7 +132,6 @@ body {
 
 	.yellow-section .tab-text {
 		color: #ffee00;
-		-webkit-text-stroke: 1.5px black;
 	}
 
 	.yellow-section .blog-tab {
@@ -157,6 +156,7 @@ body {
 		position: relative;
 		width: 52vw;
 		top: 14%;
+		pointer-events: none;
 	}
 
 	.yellow-section .blog-tab h2 {
@@ -199,7 +199,7 @@ body {
 		font-size: 13vw;
 		height: 10%;
 		margin: 0;
-		top: 70%;
+		top: 71%;
 		left: 5%;
 	}
 }
